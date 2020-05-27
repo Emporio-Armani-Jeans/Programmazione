@@ -8,6 +8,7 @@
 
 class Record {
     Record();
+    ~Record();
 };
 
 

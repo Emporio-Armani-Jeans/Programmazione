@@ -5,14 +5,13 @@
 #ifndef PROGETTO_TABELLA_H
 #define PROGETTO_TABELLA_H
 #include <vector>
+#include "Record.h"
 using namespace std;
 
 template<typename T>
 class Tabella {
 private:
-    vector<Record> recs;
-    friend class Record;
-    friend class Colonna;
+    vector<Record<T>> records;
 };
 
 

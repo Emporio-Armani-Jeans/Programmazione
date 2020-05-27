@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione
+CMAKE_SOURCE_DIR = C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\jccx1\CLionProjects\Programmazione\progetto-programm
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ Progetto/fast:
 	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/build
 .PHONY : Progetto/fast
 
-Colonna.obj: Colonna.cpp.obj
+Elemento.obj: Elemento.cpp.obj
 
-.PHONY : Colonna.obj
+.PHONY : Elemento.obj
 
 # target to build an object file
-Colonna.cpp.obj:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Colonna.cpp.obj
-.PHONY : Colonna.cpp.obj
+Elemento.cpp.obj:
+	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Elemento.cpp.obj
+.PHONY : Elemento.cpp.obj
 
-Colonna.i: Colonna.cpp.i
+Elemento.i: Elemento.cpp.i
 
-.PHONY : Colonna.i
+.PHONY : Elemento.i
 
 # target to preprocess a source file
-Colonna.cpp.i:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Colonna.cpp.i
-.PHONY : Colonna.cpp.i
+Elemento.cpp.i:
+	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Elemento.cpp.i
+.PHONY : Elemento.cpp.i
 
-Colonna.s: Colonna.cpp.s
+Elemento.s: Elemento.cpp.s
 
-.PHONY : Colonna.s
+.PHONY : Elemento.s
 
 # target to generate assembly for a file
-Colonna.cpp.s:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Colonna.cpp.s
-.PHONY : Colonna.cpp.s
+Elemento.cpp.s:
+	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Elemento.cpp.s
+.PHONY : Elemento.cpp.s
 
 Record.obj: Record.cpp.obj
 
@@ -266,9 +266,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Progetto
 	@echo ... edit_cache
-	@echo ... Colonna.obj
-	@echo ... Colonna.i
-	@echo ... Colonna.s
+	@echo ... Elemento.obj
+	@echo ... Elemento.i
+	@echo ... Elemento.s
 	@echo ... Record.obj
 	@echo ... Record.i
 	@echo ... Record.s

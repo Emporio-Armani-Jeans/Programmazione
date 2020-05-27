@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione
+CMAKE_SOURCE_DIR = C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Progetto.dir/depend.make
@@ -58,90 +58,90 @@ include CMakeFiles/Progetto.dir/flags.make
 
 CMakeFiles/Progetto.dir/main.cpp.obj: CMakeFiles/Progetto.dir/flags.make
 CMakeFiles/Progetto.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Progetto.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\main.cpp.obj -c C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Progetto.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\main.cpp.obj -c C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\main.cpp
 
 CMakeFiles/Progetto.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progetto.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\main.cpp > CMakeFiles\Progetto.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\main.cpp > CMakeFiles\Progetto.dir\main.cpp.i
 
 CMakeFiles/Progetto.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progetto.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\main.cpp -o CMakeFiles\Progetto.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\main.cpp -o CMakeFiles\Progetto.dir\main.cpp.s
 
 CMakeFiles/Progetto.dir/Tabella.cpp.obj: CMakeFiles/Progetto.dir/flags.make
 CMakeFiles/Progetto.dir/Tabella.cpp.obj: ../Tabella.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Progetto.dir/Tabella.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\Tabella.cpp.obj -c C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Tabella.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Progetto.dir/Tabella.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\Tabella.cpp.obj -c C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Tabella.cpp
 
 CMakeFiles/Progetto.dir/Tabella.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progetto.dir/Tabella.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Tabella.cpp > CMakeFiles\Progetto.dir\Tabella.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Tabella.cpp > CMakeFiles\Progetto.dir\Tabella.cpp.i
 
 CMakeFiles/Progetto.dir/Tabella.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progetto.dir/Tabella.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Tabella.cpp -o CMakeFiles\Progetto.dir\Tabella.cpp.s
-
-CMakeFiles/Progetto.dir/Colonna.cpp.obj: CMakeFiles/Progetto.dir/flags.make
-CMakeFiles/Progetto.dir/Colonna.cpp.obj: ../Colonna.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Progetto.dir/Colonna.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\Colonna.cpp.obj -c C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Colonna.cpp
-
-CMakeFiles/Progetto.dir/Colonna.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progetto.dir/Colonna.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Colonna.cpp > CMakeFiles\Progetto.dir\Colonna.cpp.i
-
-CMakeFiles/Progetto.dir/Colonna.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progetto.dir/Colonna.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Colonna.cpp -o CMakeFiles\Progetto.dir\Colonna.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Tabella.cpp -o CMakeFiles\Progetto.dir\Tabella.cpp.s
 
 CMakeFiles/Progetto.dir/data.cpp.obj: CMakeFiles/Progetto.dir/flags.make
 CMakeFiles/Progetto.dir/data.cpp.obj: ../data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Progetto.dir/data.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\data.cpp.obj -c C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Progetto.dir/data.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\data.cpp.obj -c C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\data.cpp
 
 CMakeFiles/Progetto.dir/data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progetto.dir/data.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\data.cpp > CMakeFiles\Progetto.dir\data.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\data.cpp > CMakeFiles\Progetto.dir\data.cpp.i
 
 CMakeFiles/Progetto.dir/data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progetto.dir/data.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\data.cpp -o CMakeFiles\Progetto.dir\data.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\data.cpp -o CMakeFiles\Progetto.dir\data.cpp.s
 
 CMakeFiles/Progetto.dir/Record.cpp.obj: CMakeFiles/Progetto.dir/flags.make
 CMakeFiles/Progetto.dir/Record.cpp.obj: ../Record.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Progetto.dir/Record.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\Record.cpp.obj -c C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Progetto.dir/Record.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\Record.cpp.obj -c C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Record.cpp
 
 CMakeFiles/Progetto.dir/Record.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progetto.dir/Record.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Record.cpp > CMakeFiles\Progetto.dir\Record.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Record.cpp > CMakeFiles\Progetto.dir\Record.cpp.i
 
 CMakeFiles/Progetto.dir/Record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progetto.dir/Record.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\Record.cpp -o CMakeFiles\Progetto.dir\Record.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Record.cpp -o CMakeFiles\Progetto.dir\Record.cpp.s
+
+CMakeFiles/Progetto.dir/Elemento.cpp.obj: CMakeFiles/Progetto.dir/flags.make
+CMakeFiles/Progetto.dir/Elemento.cpp.obj: ../Elemento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Progetto.dir/Elemento.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Progetto.dir\Elemento.cpp.obj -c C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Elemento.cpp
+
+CMakeFiles/Progetto.dir/Elemento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progetto.dir/Elemento.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Elemento.cpp > CMakeFiles\Progetto.dir\Elemento.cpp.i
+
+CMakeFiles/Progetto.dir/Elemento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progetto.dir/Elemento.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\Elemento.cpp -o CMakeFiles\Progetto.dir\Elemento.cpp.s
 
 # Object files for target Progetto
 Progetto_OBJECTS = \
 "CMakeFiles/Progetto.dir/main.cpp.obj" \
 "CMakeFiles/Progetto.dir/Tabella.cpp.obj" \
-"CMakeFiles/Progetto.dir/Colonna.cpp.obj" \
 "CMakeFiles/Progetto.dir/data.cpp.obj" \
-"CMakeFiles/Progetto.dir/Record.cpp.obj"
+"CMakeFiles/Progetto.dir/Record.cpp.obj" \
+"CMakeFiles/Progetto.dir/Elemento.cpp.obj"
 
 # External object files for target Progetto
 Progetto_EXTERNAL_OBJECTS =
 
 Progetto.exe: CMakeFiles/Progetto.dir/main.cpp.obj
 Progetto.exe: CMakeFiles/Progetto.dir/Tabella.cpp.obj
-Progetto.exe: CMakeFiles/Progetto.dir/Colonna.cpp.obj
 Progetto.exe: CMakeFiles/Progetto.dir/data.cpp.obj
 Progetto.exe: CMakeFiles/Progetto.dir/Record.cpp.obj
+Progetto.exe: CMakeFiles/Progetto.dir/Elemento.cpp.obj
 Progetto.exe: CMakeFiles/Progetto.dir/build.make
 Progetto.exe: CMakeFiles/Progetto.dir/linklibs.rsp
 Progetto.exe: CMakeFiles/Progetto.dir/objects1.rsp
 Progetto.exe: CMakeFiles/Progetto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Progetto.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Progetto.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Progetto.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/Progetto.dir/clean:
 .PHONY : CMakeFiles/Progetto.dir/clean
 
 CMakeFiles/Progetto.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug C:\Users\jccx1\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles\Progetto.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug C:\Users\andry\CLionProjects\Programmazione\progetto-programmazione\cmake-build-debug\CMakeFiles\Progetto.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Progetto.dir/depend
 

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/Colonna.cpp" "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Colonna.cpp.obj"
-  "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/Record.cpp" "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Record.cpp.obj"
-  "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/Tabella.cpp" "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Tabella.cpp.obj"
-  "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/data.cpp" "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/data.cpp.obj"
-  "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/main.cpp" "C:/Users/jccx1/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/main.cpp.obj"
+  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Elemento.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Elemento.cpp.obj"
+  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Record.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Record.cpp.obj"
+  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Tabella.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Tabella.cpp.obj"
+  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/data.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/data.cpp.obj"
+  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/main.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

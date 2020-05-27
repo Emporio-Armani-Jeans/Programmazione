@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Elemento.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Elemento.cpp.obj"
-  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Record.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Record.cpp.obj"
-  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Tabella.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Tabella.cpp.obj"
-  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/data.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/data.cpp.obj"
-  "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/main.cpp" "C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/main.cpp.obj"
+  "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/Elemento.cpp" "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Elemento.cpp.o"
+  "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/Record.cpp" "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Record.cpp.o"
+  "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/Tabella.cpp" "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/Tabella.cpp.o"
+  "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/data.cpp" "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/data.cpp.o"
+  "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/main.cpp" "/Users/elisamessina/CLionProjects/Programmazione/progetto-programmazione/cmake-build-debug/CMakeFiles/Progetto.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

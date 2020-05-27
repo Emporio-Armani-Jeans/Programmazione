@@ -7,7 +7,7 @@
 
 
 class Record {
-
+    Record();
 };
 
 

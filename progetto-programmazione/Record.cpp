@@ -5,5 +5,5 @@
 #include "Record.h"
 
 Record::Record(){
-    porca madonna;
+    //porca madonna;
 }

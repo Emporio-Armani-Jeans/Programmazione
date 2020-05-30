@@ -122,59 +122,32 @@ Progetto/fast:
 	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/build
 .PHONY : Progetto/fast
 
-Elemento.obj: Elemento.cpp.obj
+Colonna.obj: Colonna.cpp.obj
 
-.PHONY : Elemento.obj
-
-# target to build an object file
-Elemento.cpp.obj:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Elemento.cpp.obj
-.PHONY : Elemento.cpp.obj
-
-Elemento.i: Elemento.cpp.i
-
-.PHONY : Elemento.i
-
-# target to preprocess a source file
-Elemento.cpp.i:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Elemento.cpp.i
-.PHONY : Elemento.cpp.i
-
-Elemento.s: Elemento.cpp.s
-
-.PHONY : Elemento.s
-
-# target to generate assembly for a file
-Elemento.cpp.s:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Elemento.cpp.s
-.PHONY : Elemento.cpp.s
-
-Record.obj: Record.cpp.obj
-
-.PHONY : Record.obj
+.PHONY : Colonna.obj
 
 # target to build an object file
-Record.cpp.obj:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Record.cpp.obj
-.PHONY : Record.cpp.obj
+Colonna.cpp.obj:
+	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Colonna.cpp.obj
+.PHONY : Colonna.cpp.obj
 
-Record.i: Record.cpp.i
+Colonna.i: Colonna.cpp.i
 
-.PHONY : Record.i
+.PHONY : Colonna.i
 
 # target to preprocess a source file
-Record.cpp.i:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Record.cpp.i
-.PHONY : Record.cpp.i
+Colonna.cpp.i:
+	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Colonna.cpp.i
+.PHONY : Colonna.cpp.i
 
-Record.s: Record.cpp.s
+Colonna.s: Colonna.cpp.s
 
-.PHONY : Record.s
+.PHONY : Colonna.s
 
 # target to generate assembly for a file
-Record.cpp.s:
-	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Record.cpp.s
-.PHONY : Record.cpp.s
+Colonna.cpp.s:
+	$(MAKE) -f CMakeFiles\Progetto.dir\build.make CMakeFiles/Progetto.dir/Colonna.cpp.s
+.PHONY : Colonna.cpp.s
 
 Tabella.obj: Tabella.cpp.obj
 
@@ -266,12 +239,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Progetto
 	@echo ... edit_cache
-	@echo ... Elemento.obj
-	@echo ... Elemento.i
-	@echo ... Elemento.s
-	@echo ... Record.obj
-	@echo ... Record.i
-	@echo ... Record.s
+	@echo ... Colonna.obj
+	@echo ... Colonna.i
+	@echo ... Colonna.s
 	@echo ... Tabella.obj
 	@echo ... Tabella.i
 	@echo ... Tabella.s

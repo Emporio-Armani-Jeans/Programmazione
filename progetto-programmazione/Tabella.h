@@ -5,13 +5,21 @@
 #ifndef PROGETTO_TABELLA_H
 #define PROGETTO_TABELLA_H
 #include <vector>
-#include "Record.h"
+#include "Colonna.h"
+
 using namespace std;
 
-template<typename T>
 class Tabella {
+public:
+    explicit Tabella(const string& nome) { _nome=nome; }
+
+    void addCol(const string& nome_col, const char& tipo, int pos);
+
 private:
-    vector<Record<T>> records;
+    string _nome;
+    vector<char> _tipi;
+    vector<int> _posizioni;  //indici che indicano a quale elemento del vect corrisponde ogni colonna
+    vector<string> _nomi;
 };
 
 

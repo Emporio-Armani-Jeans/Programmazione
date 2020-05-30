@@ -80,16 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Elemento.cpp">
+		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Colonna.cpp">
 			<Option target="Progetto"/>
 		</Unit>
-		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Elemento.h">
+		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Colonna.h">
 			<Option target="Progetto"/>
 		</Unit>
-		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Record.cpp">
-			<Option target="Progetto"/>
-		</Unit>
-		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Record.h">
+		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Storage_Elements.hpp">
 			<Option target="Progetto"/>
 		</Unit>
 		<Unit filename="C:/Users/andry/CLionProjects/Programmazione/progetto-programmazione/Tabella.cpp">
